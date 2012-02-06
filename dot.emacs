@@ -266,9 +266,9 @@
 ;; (find-function '関数名)
 ;; (find-variable '変数名)
 
-;;(add-to-list 'load-path "~/.emacs.d/elisp/skk/") 
-;;(require 'skk-autoloads)
-;;(global-set-key "\C-x\C-q" 'skk-mode)
+(add-to-list 'load-path "~/.emacs.d/elisp/skk/") 
+(require 'skk-autoloads)
+(global-set-key "\C-x\C-j" 'skk-mode)
 
 ;;; 現在行に色を付ける
 (global-hl-line-mode 1)
