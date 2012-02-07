@@ -325,3 +325,10 @@
   (interactive)				;コマンドにするには必要
   (beginning-of-line)			;行頭にカーソルを持って行く
   (kill-line 1))			;改行ごとkillする
+
+(add-to-list 'load-path "~/.emacs.d/elisp/") 
+(require 'linum)
+(global-linum-mode t) 
+
+
+
